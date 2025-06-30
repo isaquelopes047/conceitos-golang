@@ -8,8 +8,15 @@
 <body>
     <h2>Página Principal</h2>
 
-    <marquee>
-        <p>Bem vindo!, {{ .Nome }}</p>
-    </marquee>
+    <button id="botao"> Click aqui</button>
+
+    <script>
+        
+        var botao = document.getElementById("botao");
+        botao.onclick = function() {
+            alert("Botão clicado com sucesso!")
+        }
+
+    </script>
 </body>
 </html>
